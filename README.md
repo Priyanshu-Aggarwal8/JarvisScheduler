@@ -44,7 +44,7 @@ Ensure you have the following installed:
 
 ```bash
  git clone https://github.com/Priyanshu-Aggarwal8/JarvisScheduler.git
- cd SmartScheduler
+ cd Scheduler
 ```
 
 2️⃣ **Configure Database**\
