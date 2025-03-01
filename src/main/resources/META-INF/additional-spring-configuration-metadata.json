@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "huggingface.api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'huggingface.api.key'"
+  },
+  {
+    "name": "huggingface.api.url",
+    "type": "java.lang.String",
+    "description": "A description for 'huggingface.api.url'"
+  }
+]}
