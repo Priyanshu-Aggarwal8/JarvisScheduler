@@ -12,7 +12,7 @@ public class TaskMessagePublisher {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    private static final String EXCHANGE_NAME = ""; // Default exchange
+    private static final String EXCHANGE_NAME = ""; 
     private static final String QUEUE_NAME = "taskQueue";
 
     public void sendTaskReminder(Map<String, String> payload) {

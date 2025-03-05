@@ -28,7 +28,7 @@ public class TaskEmailConsumer {
             SimpleMailMessage mailMessage = new SimpleMailMessage();
             mailMessage.setTo(recipientEmail);
             mailMessage.setSubject(subject);
-            if(tips == null){mailMessage.setText(message);}
+            if(tips == "null"){mailMessage.setText(message);}
             else{mailMessage.setText(message + " \n\n" +  tips);}
             mailSender.send(mailMessage);
             System.out.println("Reminder email sent to: " + recipientEmail);

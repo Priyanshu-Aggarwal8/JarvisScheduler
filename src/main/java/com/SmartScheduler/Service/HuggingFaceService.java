@@ -34,6 +34,7 @@ public class HuggingFaceService {
             2. Return tips as a numbered list (1., 2., 3.), each in a new line.
             3. For each tip, add a concise example implementation starting with "Example:".
             4. Avoid generic advice—focus on actionable steps.
+            5. Only include the generated task tips in your response, without rewriting the rules and example provided to you in the output.
             
             Example for task "Organize a study schedule":
             1. Use time-blocking for focused sessions.
